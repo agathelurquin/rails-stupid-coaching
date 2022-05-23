@@ -1,0 +1,53 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+body {
+  margin: 20px;
+  font-family:'Helvetica';
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: normal;
+
+}
+
+.user-question, .coach-answer {
+  font-weight: lighter;
+  line-height: 2;
+  color: #333334;
+  border-left: 6px solid #DDDDDD;
+  padding: 15px;
+
+}
+
+.coach-answer {
+  background-color: #FFFFE1;
+}
+
+a {
+  text-decoration: none;
+}
+
+.loop-link {
+  text-decoration: none;
+  color: #A6B6D2;
+  & :visited {
+    color: #A6B6D2;
+  }
+}
+
+.question-form {
+  display: flex;
+  border-radius: 10px;
+  border-style: none;
+}
+
+.submit-button {
+  background-color: #3279B7;
+  color: #fff;
+  font-weight: border;
+  padding: 20px;
+
+
+}
